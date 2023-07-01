@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./assets/css/index.css">
+
+</head>
+
+<body>
+  <div class="title">
+    <h1>Car Horizon</h1>
+  </div>
+  <div class="yanyana">
+    <div class="center">
+      <div class="sensör1">
+        121
+      </div>
+      <div class="yatay">
+        <div class="yataykisim sensör2">
+          45
+        </div>
+        <div class="yataykisim img">
+          <img src="./assets/img/Car.png" />
+        </div>
+        <div class="yataykisim sensör3">
+          35
+        </div>
+      </div>
+      <div class="sensör4">
+        121
+      </div>
+    </div>
+    <div id="container"></div>
+  </div>
+
+  <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "three": "./three/build/three.module.js",
+    "orbitcontrols ": "./three/exemples/jsm/controls/OrbitControls.js"
+  }
+}
+</script>
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>

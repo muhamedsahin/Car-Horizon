@@ -1,0 +1,56 @@
+body {
+    background-color: #e0e5ec;
+    color: #181818ee;
+    font-family: monospace;
+    font-size: 24px;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+.sensör1{
+    width: 100%;
+    text-align: center;
+}
+.yatay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yataykisim{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sensör4{
+    width: 100%;
+    text-align: center;
+}
+.sensör2{
+    justify-content: flex-end;
+}
+.sensör3{
+    justify-content: flex-start;
+}
+.center{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.yukari{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.yanyana{
+    display: flex;
+    align-items: center;
+}
